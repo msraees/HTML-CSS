@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: aqua;
+    height: 100vh;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    background: rgb(239, 243, 243);
+    font-family:sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    border-radius: 5%;
+}
+.container .box.shadow1 {
+    box-shadow: 10px 10px 5px  rgb(0, 0, 0, 0.2);
+}
+.container .box.shadow2 {
+    box-shadow: -10px 10px 5px  rgb(0, 0, 0, 0.2);
+}
+.container .box.shadow3 {
+    box-shadow: -10px -10px 5px  rgb(0, 0, 0, 0.2);
+}
+.container .box.shadow4 {
+    box-shadow: 10px -10px 5px  rgb(0, 0, 0, 0.2);
+}
+.container .box.shadow5 {
+    box-shadow: 
+    inset -6px -6px 5px  rgba(165, 160, 160, 0.938),
+   inset 6px 6px 5px  rgba(165, 160, 160, 0.938);
+   border-radius: 50%;
+}
